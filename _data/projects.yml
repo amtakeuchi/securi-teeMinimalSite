@@ -1,0 +1,7 @@
+- name: "Threat Detection Lab"
+  description: "Investigated alerts in Splunk from a simulated attack."
+  link: "https://github.com/amtakeuchi/threat-detection-lab"
+
+- name: "Cloud Practice"
+  description: "Explored Azure and AWS services for infrastructure and IAM."
+  link: "https://github.com/amtakeuchi/cloud-practice"
