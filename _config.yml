@@ -22,4 +22,7 @@ defaults:
 
 color_scheme: dark
 
+sass:
+  style: compressed
+
 repository: amtakeuchi/portfolio
