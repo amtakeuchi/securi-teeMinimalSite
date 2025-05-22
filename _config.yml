@@ -20,9 +20,6 @@ defaults:
       layout: single
       author_profile: true
 
-paginate: 5
-paginate_path: "/blog/page:num/"
-
 color_scheme: dark
 
 repository: amtakeuchi/portfolio
