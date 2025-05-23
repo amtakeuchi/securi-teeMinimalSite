@@ -1,0 +1,19 @@
+---
+layout: single
+title: "Create Your Account"
+permalink: /register/
+---
+
+<div id="netlify-signup"></div>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  netlifyIdentity.init();
+  netlifyIdentity.on("init", user => {
+    if (user) {
+      window.location.href = "/admin/";
+    }
+  });
+
+  netlifyIdentity.open("signup");
+</script>
