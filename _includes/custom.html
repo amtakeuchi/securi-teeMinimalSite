@@ -1,0 +1,26 @@
+<!-- Dark Mode Toggle Switch -->
+<label class="switch">
+    <input type="checkbox" id="mode-toggle">
+    <span class="slider round"></span>
+  </label>
+  
+  <script>
+    // Initialize theme on page load
+    const theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+      document.body.classList.add("dark");
+      document.getElementById("mode-toggle").checked = true;
+    }
+  
+    // Toggle function
+    document.getElementById("mode-toggle").addEventListener("change", function() {
+      if (this.checked) {
+        document.body.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+      } else {
+        document.body.classList.remove("dark");
+        localStorage.setItem("theme", "light");
+      }
+    });
+  </script>
+  
