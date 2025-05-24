@@ -2,7 +2,6 @@
 body {
   background-color: #FFFFFF;
   color: #0A192F;
-  line-height: 1.6;
 }
 
 a {
@@ -17,35 +16,10 @@ h1, h2, h3 {
   color: #0A192F;
 }
 
-form {
-  background-color: #FFFFFF;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #219ab3;
-  border-radius: 4px;
-  background: #f4f4f4;
-  color: #0A192F;
-}
-
-form button {
-  background-color: #219ab3;
-  color: #FFF;
-  border: none;
-  padding: 0.75rem 1.25rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 /* Dark Mode */
 body.dark {
-  background-color: #0A192F;
-  color: #F8F8F8;
+  background-color: #121212;
+  color: #E0E0E0;
 }
 
 body.dark a {
@@ -61,19 +35,19 @@ body.dark h1, body.dark h2, body.dark h3 {
 }
 
 body.dark form {
-  background-color: #0A192F;
+  background-color: #1F1F1F;
 }
 
-body.dark form input, 
+body.dark form input,
 body.dark form textarea {
-  background: #061C2C;
+  background: #262626;
   color: #FFF;
   border: 1px solid #33D6FF;
 }
 
 body.dark form button {
   background-color: #33D6FF;
-  color: #0A192F;
+  color: #121212;
 }
 
 /* Toggle Switch Styles */
