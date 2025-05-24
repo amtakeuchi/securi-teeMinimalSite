@@ -2,18 +2,65 @@
 body {
   background-color: #FFFFFF;
   color: #0A192F;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
 }
 
 a {
   color: #219ab3;
+  text-decoration: none;
 }
 
 a:hover {
   color: #33D6FF;
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
   color: #0A192F;
+}
+
+form {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #219ab3;
+  border-radius: 4px;
+  background: #f4f4f4;
+  color: #0A192F;
+}
+
+form button {
+  background-color: #219ab3;
+  color: #FFF;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: transparent;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: #FF4081;
 }
 
 /* Dark Mode */
@@ -36,6 +83,7 @@ body.dark h1, body.dark h2, body.dark h3 {
 
 body.dark form {
   background-color: #1F1F1F;
+  box-shadow: 0 0 5px rgba(255,255,255,0.05);
 }
 
 body.dark form input,
@@ -48,6 +96,15 @@ body.dark form textarea {
 body.dark form button {
   background-color: #33D6FF;
   color: #121212;
+}
+
+/* Navigation Bar Dark Mode */
+body.dark nav a {
+  color: #E0E0E0;
+}
+
+body.dark nav a:hover {
+  color: #FF4081;
 }
 
 /* Toggle Switch Styles */
