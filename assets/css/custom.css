@@ -1,13 +1,126 @@
+/* Light Mode (default) */
 body {
-    background-color: #0A192F;
-    color: #FFFFFF;
-  }
-  
-  a {
-    color: #219ab3;
-  }
-  
-  a:hover {
-    color: #33d6ff;
-  }
-  
+  background-color: #FFFFFF;
+  color: #0A192F;
+  line-height: 1.6;
+}
+
+a {
+  color: #219ab3;
+}
+
+a:hover {
+  color: #33D6FF;
+}
+
+h1, h2, h3 {
+  color: #0A192F;
+}
+
+form {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #219ab3;
+  border-radius: 4px;
+  background: #f4f4f4;
+  color: #0A192F;
+}
+
+form button {
+  background-color: #219ab3;
+  color: #FFF;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #0A192F;
+  color: #F8F8F8;
+}
+
+body.dark a {
+  color: #33D6FF;
+}
+
+body.dark a:hover {
+  color: #FF4081;
+}
+
+body.dark h1, body.dark h2, body.dark h3 {
+  color: #FFFFFF;
+}
+
+body.dark form {
+  background-color: #0A192F;
+}
+
+body.dark form input, 
+body.dark form textarea {
+  background: #061C2C;
+  color: #FFF;
+  border: 1px solid #33D6FF;
+}
+
+body.dark form button {
+  background-color: #33D6FF;
+  color: #0A192F;
+}
+
+/* Toggle Switch Styles */
+.switch {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+  z-index: 999;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #219ab3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
