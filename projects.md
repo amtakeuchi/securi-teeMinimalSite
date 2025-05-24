@@ -4,7 +4,20 @@ title: "Projects"
 permalink: /projects/
 ---
 
+<ul>
+  {% for project in site.data.projects %}
+    <li style="margin-bottom: 2rem;">
+      <img src="{{ project.image }}" alt="{{ project.title }}" style="max-width:300px; margin-bottom: 1rem; border-radius: 6px;">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.url }}" target="_blank" style="color:#33D6FF; font-weight:bold;">View Project</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 ## 📡 My Custom Cybersecurity & Financial Threat Intelligence Aggregator (Flask Web App)
+
 
 This is a custom-built Flask web application I designed to scrape and collect the latest headlines and alerts from across the cybersecurity, finance, cryptocurrency, geopolitics, crime, and world news ecosystems. It serves as a centralized dashboard for monitoring breaking news, active cyber threats, financial market movements, and geopolitical events relevant to incident response, penetration testing, cloud infrastructure security, and strategic risk monitoring.
 
@@ -13,6 +26,7 @@ Reason being? Well, as someone diving deeper into cybersecurity operations and c
 So, I built it myself.
 
 🛠️ The Idea
+
 I wanted a personal dashboard that could pull news and alerts from multiple trusted sources — cybersecurity sites, financial publications, crime bulletins, and world news — then filter them by keywords relevant to my daily work as an incident responder, pentester, cloud engineer, and sysadmin. Think APT alerts, ransomware incidents, critical vulnerabilities, market-moving crypto crime stories, and geopolitical conflicts with cyber risk implications.
 
 This Flask web app combines:
@@ -26,11 +40,13 @@ This Flask web app combines:
 The result is a clean, lightweight web dashboard that shows me the latest threat intelligence and financial risk signals in near real-time — tailored specifically for the work I do.
 
 📊 Why This Matters
+
 In cybersecurity, timing is everything. Getting a zero-day disclosure, nation-state attribution, or critical infrastructure ransomware report even 30 minutes before your competitors can make all the difference in patching, escalation, or response prep. This tool helps me stay a step ahead without the noise.
 
 Plus, integrating finance and world news lets me track how macro events might ripple into the cloud and enterprise tech spaces. A geopolitical conflict in a region hosting major data centers? A regulatory crackdown on a crypto exchange? This dashboard catches it.
 
 🚀 What’s Next
+
 Somewhere down the line I’m planning to enhance it with:
 - A search and sort feature for articles by keyword or category
 - Optional email or webhook alerts
