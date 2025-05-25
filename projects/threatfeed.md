@@ -1,12 +1,10 @@
 ---
 layout: single
-title: "Cybersecurity & Financial Threat Intelligence Aggregator"
+title: "📡 My Custom Cybersecurity & Financial Threat Intelligence Aggregator (Flask Web App)"
 permalink: /projects/threatfeed/
 ---
 
 ![Dashboard Screenshot](/assets/images/projects/CleanCyberThreatFeedSS.jpg)
-
-📡 My Custom Cybersecurity & Financial Threat Intelligence Aggregator (Flask Web App)
 
 This is a custom-built Flask web application I designed to scrape and collect the latest headlines and alerts from across the cybersecurity, finance, cryptocurrency, geopolitics, crime, and world news ecosystems. It serves as a centralized dashboard for monitoring breaking news, active cyber threats, financial market movements, and geopolitical events relevant to incident response, penetration testing, cloud infrastructure security, and strategic risk monitoring.
 
