@@ -1,0 +1,7 @@
+<div class="footer__links" style="text-align: center; margin-top: 1rem;">
+  {% for link in site.author.links %}
+    <a href="{{ link.url }}" target="_blank" aria-label="{{ link.label }}" style="margin: 0 0.5rem; font-size: 1.5rem;">
+      <i class="{{ link.icon }}"></i>
+    </a>
+  {% endfor %}
+</div>
