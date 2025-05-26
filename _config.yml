@@ -26,3 +26,14 @@ sass:
   style: compressed
 
 repository: amtakeuchi/portfolio
+
+author:
+  name: "Adam Takeuchi"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/amtakeuchi"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/adam-takeuchi/"
+
