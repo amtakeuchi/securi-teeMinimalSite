@@ -23,7 +23,7 @@ This site serves as my digital notebook — sharing knowledge, projects, and tho
 
 ---
 
-## 📌 Latest Blog Post
+## 📌 My Latest Blog Post
 
 {% assign recent_post = site.posts | first %}
 
@@ -38,4 +38,4 @@ This site serves as my digital notebook — sharing knowledge, projects, and tho
 
 ## 📫 Connect With Me
 
-Check out my [Projects](/projects/) or drop by my [Contact](/contact/) page.
+Drop by my [Contact](/contact/) page and leave me a message!
