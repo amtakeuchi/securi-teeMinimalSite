@@ -4,6 +4,8 @@ title: "Thanks!"
 permalink: /thanks/
 ---
 
-## Thanks for reaching out!
+## ✅ Message Sent!
 
-I’ll be in touch soon!
+Thanks for reaching out — I’ll be in touch soon!
+
+In the meantime, feel free to check out my [Blog](/blog/) or browse through my [Projects](/projects/).
