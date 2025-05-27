@@ -1,3 +1,4 @@
+/* Images */
 img {
   max-width: 100%;
   height: auto;
@@ -16,6 +17,8 @@ body {
   color: #0A192F;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
+  background-image: url('/assets/images/bg-tech-pattern.png');
+  background-repeat: repeat;
 }
 
 a {
@@ -32,6 +35,7 @@ h1, h2, h3 {
   color: #0A192F;
 }
 
+/* Forms */
 form {
   background-color: #FFFFFF;
   padding: 1rem;
@@ -79,6 +83,7 @@ nav a:hover {
 body.dark {
   background-color: #121212;
   color: #E0E0E0;
+  background-image: none;
 }
 
 body.dark a {
@@ -168,17 +173,87 @@ input:checked + .slider:before {
   transform: translateX(24px);
 }
 
+/* Project Cards */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .project-card {
+  background-color: #1F1F1F;
   border: 1px solid #333;
   padding: 1rem;
   border-radius: 8px;
-  margin-bottom: 1.5rem;
-  background-color: #1F1F1F;
+  width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: #33D6FF;
+  transform: translateY(-4px);
 }
 
 .project-card img {
   max-width: 100%;
+  height: auto;
   border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.project-card h3 {
+  color: #E0E0E0;
   margin-bottom: 0.5rem;
 }
 
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  color: #C0C0C0;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #33D6FF;
+  color: #121212;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #219ab3;
+  color: #FFFFFF;
+}
+
+/* Footer Social Links */
+.footer__links a {
+  color: #333;
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+body.dark .footer__links a {
+  color: #E0E0E0;
+}
+
+body.dark .footer__links a:hover {
+  color: #33D6FF;
+}
+
+/* Blog Post Meta */
+.post-meta {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+body.dark .post-meta {
+  color: #BBB;
+}
