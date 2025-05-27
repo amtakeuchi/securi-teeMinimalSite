@@ -28,7 +28,7 @@ sass:
 repository: amtakeuchi/portfolio
 
 author:
-  name: "Adam Takeuchi"
+  name: "Root_User"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
