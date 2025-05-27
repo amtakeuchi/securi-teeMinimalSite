@@ -9,17 +9,8 @@ permalink: /contact/
 Want to collaborate, ask questions, or connect? Drop me a message here:
 
 <form name="contact" method="POST" data-netlify="true" action="/thanks/">
-  <input type="hidden" name="form-name" value="contact">
-  <p>
-    <label>Your Name:<br><input type="text" name="name" required></label>
-  </p>
-  <p>
-    <label>Your Email:<br><input type="email" name="email" required></label>
-  </p>
-  <p>
-    <label>Message:<br><textarea name="message" required></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
 </form>
