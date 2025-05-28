@@ -245,6 +245,17 @@ body.dark .project-link:hover {
   color: #FFFFFF;
 }
 
+/* Failsafe: any link inside a project card in dark mode */
+body.dark .project-card a {
+  background-color: #33D6FF;
+  color: #121212;
+}
+
+body.dark .project-card a:hover {
+  background-color: #219ab3;
+  color: #FFFFFF;
+}
+
 /* Footer Social Links */
 .footer__links a {
   color: #333;
