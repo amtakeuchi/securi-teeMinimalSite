@@ -1,9 +1,8 @@
 ---
-layout: home
+layout: single
 title: "Blog"
 permalink: /blog/
-pagination:
-  enabled: true
+author_profile: false
 ---
 
 My latest posts and write-ups on security, cloud, personal experiments, and whatever else is on my mind.
