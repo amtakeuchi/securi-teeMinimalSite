@@ -173,7 +173,7 @@ input:checked + .slider:before {
   transform: translateX(24px);
 }
 
-/* Project Cards */
+/* Project Cards Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -183,6 +183,7 @@ input:checked + .slider:before {
   padding: 0 1rem;
 }
 
+/* Project Card Styling */
 .project-card {
   background-color: #1F1F1F;
   border: 1px solid #333;
@@ -216,11 +217,12 @@ input:checked + .slider:before {
   color: #C0C0C0;
 }
 
+/* Project Link Button — Light Mode */
 .project-link {
   display: inline-block;
   padding: 0.5rem 1rem;
   background-color: #33D6FF;
-  color: #121212;
+  color: #FFFFFF;
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
@@ -228,6 +230,17 @@ input:checked + .slider:before {
 }
 
 .project-link:hover {
+  background-color: #219ab3;
+  color: #FFFFFF;
+}
+
+/* Project Link Button — Dark Mode */
+body.dark .project-link {
+  background-color: #33D6FF;
+  color: #121212;
+}
+
+body.dark .project-link:hover {
   background-color: #219ab3;
   color: #FFFFFF;
 }
