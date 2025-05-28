@@ -4,6 +4,12 @@
   image: "/assets/images/projects/CleanCyberThreatFeedSS.jpg"
 
 
-- name: "Cloud Practice"
-  description: "Explored Azure and AWS services for infrastructure and IAM."
-  link: "https://github.com/amtakeuchi/cloud-practice"
+- title: "Cloud Practice"
+  description: "COMING SOON!"
+  url: "https://github.com/amtakeuchi/cloud-practice"
+
+- title: "Homelab Traffic Interception"
+  description: "COMING SOON!"
+  url: "https://github.com/amtakeuchi/homelabtraffic"
+
+  
