@@ -281,3 +281,31 @@ body.dark .footer__links a:hover {
 body.dark .post-meta {
   color: #BBB;
 }
+
+/* Absolute override for any View Project buttons inside project cards */
+.project-card a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #33D6FF;
+  color: #121212;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #219ab3;
+  color: #FFFFFF;
+}
+
+/* Dark mode override */
+body.dark .project-card a {
+  background-color: #33D6FF;
+  color: #121212;
+}
+
+body.dark .project-card a:hover {
+  background-color: #219ab3;
+  color: #FFFFFF;
+}
