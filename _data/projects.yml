@@ -1,6 +1,6 @@
 - title: "📡 My Custom Cybersecurity & Financial Threat Intelligence Aggregator"
   description: "A Flask web app aggregating breaking cybersecurity, financial, and geopolitical threat intelligence via RSS, scraping, and keyword filtering."
-  url: "/projects/threatfeed/"
+  url: "https://github.com/amtakeuchi/portfolio/tree/main/cyber_newsfeed_web"
   image: "/assets/images/projects/CleanCyberThreatFeedSS.jpg"
 
 
